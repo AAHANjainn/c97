@@ -1,0 +1,82 @@
+body{
+    background:linear-gradient(to right, rgb(134, 239, 172), rgb(192, 132, 252));
+    background-size: cover;
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-decoration:overline underline ;
+    text-decoration-style:double;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    border-radius: 20px;
+    height: 100px;
+    width:200px;
+    border-width: 5px;
+    border-color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    margin-left: 30px;
+}
+
+#radius, #base, #height, #side_1 , #side_2, #side_3 , #diagonal_1,#diagonal_2{
+    border-radius: 20px;
+    height: 100px;
+    width:290px;
+    border-width: 5px;
+    border-color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    margin-left: 30px;
+    text-align: center;
+   
+}
+#length{
+    border-radius: 20px;
+    height: 100px;
+    width:240px;
+    border-width: 5px;
+    border-color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    margin-left: 30px;
+    text-align: center;
+   
+}
+
+#breadth{
+    border-radius: 20px;
+    height: 100px;
+    width:250px;
+    border-width: 5px;
+    border-color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    margin-left: 30px;
+    text-align: center;
+   
+}
+
+
+.shape_name{
+    text-shadow: 2px 2px steelblue;
+    text-decoration: underline;
+}
+
+.images{
+    width:400px;
+}
+
+#answer{
+    font-weight: bolder;
+    text-decoration: underline;
+}

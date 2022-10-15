@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Shape Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body>
+<center>
+<h1>Shape Calculator</h1>
+<br><br>
+<div>
+    <h1 class="shape_name">Rhombus</h2>
+    <img src="https://www.aplustopper.com/wp-content/uploads/2017/04/How-To-Find-Area-Of-Rhombus-1.jpg" class="images">
+</div>
+
+
+<br><br>
+<h2>Enter Diagonal 1 Below</h2>
+<br>
+<br>
+<input type="number" id="diagonal_1" placeholder="Enter Diagonal 1">
+<h2>Enter Diagonal 2 Below</h2>
+<br>
+<br>
+<input type="number" id="diagonal_2" placeholder="Enter Diagonal 2">
+<br>
+<br>
+<br>
+<br>
+<br>
+<button id="calculate" onclick="calculate_rhombus_area()">Calculate</button>
+<br>
+<br>
+<br>
+<h2 id="answer"></h2>
+<button onclick="back()">Back</button>
+
+</center>
+<script src='main.js'></script>
+</body>
+</html>
